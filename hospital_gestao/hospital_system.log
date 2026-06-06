@@ -1,0 +1,219 @@
+2026-05-28 22:20:31,625 [INFO] HospitalSystem: INÍCIO: AuthService.login
+2026-05-28 22:20:31,636 [INFO] HospitalSystem: FIM: AuthService.login | Tempo: 0.009s
+2026-05-28 22:20:31,664 [INFO] HospitalSystem: INÍCIO: AuthService.login
+2026-05-28 22:20:31,674 [INFO] HospitalSystem: FIM: AuthService.login | Tempo: 0.010s
+2026-05-28 22:20:31,690 [INFO] HospitalSystem: INÍCIO: AuthService.login
+2026-05-28 22:20:31,693 [ERROR] HospitalSystem: ERRO em AuthService.login: [AUTH_ERROR] Utilizador não encontrado ou inactivo.
+2026-05-28 22:20:31,723 [INFO] HospitalSystem: INÍCIO: AuthService.login
+2026-05-28 22:20:31,728 [ERROR] HospitalSystem: ERRO em AuthService.login: [AUTH_ERROR] Palavra-passe incorrecta.
+2026-05-28 22:20:31,729 [INFO] HospitalSystem: INÍCIO: TestAction
+2026-05-28 22:20:31,730 [INFO] HospitalSystem: FIM: TestAction | Tempo: 0.001s
+2026-05-28 22:20:31,730 [INFO] HospitalSystem: [TIMER] Início: TestTimer
+2026-05-28 22:20:31,756 [INFO] HospitalSystem: [TIMER] Fim: TestTimer | 0.026s
+2026-05-28 22:20:31,826 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-28 22:20:31,845 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.019s
+2026-05-28 22:20:31,866 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-28 22:20:31,877 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.011s
+2026-05-28 22:20:31,877 [INFO] HospitalSystem: INÍCIO: Repository.delete
+2026-05-28 22:20:31,904 [INFO] HospitalSystem: FIM: Repository.delete | Tempo: 0.028s
+2026-05-28 22:20:31,916 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-28 22:20:31,920 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.005s
+2026-05-28 22:20:31,920 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-28 22:20:31,923 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.003s
+2026-05-28 22:20:31,942 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-28 22:20:31,949 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.007s
+2026-05-28 22:20:31,998 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-28 22:20:32,006 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.008s
+2026-05-28 22:20:32,022 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-28 22:20:32,029 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.007s
+2026-05-28 22:20:32,030 [INFO] HospitalSystem: INÍCIO: Repository.update
+2026-05-28 22:20:32,032 [INFO] HospitalSystem: FIM: Repository.update | Tempo: 0.002s
+2026-05-28 22:20:32,081 [INFO] HospitalSystem: INÍCIO: PatientService.register
+2026-05-28 22:20:32,091 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-28 22:20:32,101 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.009s
+2026-05-28 22:20:32,102 [INFO] HospitalSystem: FIM: PatientService.register | Tempo: 0.020s
+2026-05-28 22:20:32,103 [INFO] HospitalSystem: INÍCIO: PatientService.delete
+2026-05-28 22:20:32,110 [INFO] HospitalSystem: INÍCIO: Repository.delete
+2026-05-28 22:20:32,128 [INFO] HospitalSystem: FIM: Repository.delete | Tempo: 0.018s
+2026-05-28 22:20:32,129 [INFO] HospitalSystem: FIM: PatientService.delete | Tempo: 0.026s
+2026-05-28 22:20:32,156 [INFO] HospitalSystem: INÍCIO: PatientService.register
+2026-05-28 22:20:32,159 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-28 22:20:32,164 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.005s
+2026-05-28 22:20:32,164 [INFO] HospitalSystem: FIM: PatientService.register | Tempo: 0.008s
+2026-05-28 22:20:32,165 [INFO] HospitalSystem: INÍCIO: PatientService.register
+2026-05-28 22:20:32,184 [ERROR] HospitalSystem: ERRO em PatientService.register: [DUPLICATE_RECORD] Já existe um paciente com o BI 'BI-TEST-001'.
+2026-05-28 22:20:32,211 [INFO] HospitalSystem: INÍCIO: PatientService.register
+2026-05-28 22:20:32,211 [ERROR] HospitalSystem: ERRO em PatientService.register: [VALIDATION_ERROR] O campo 'full_name' é obrigatório.
+2026-05-28 22:20:32,228 [INFO] HospitalSystem: INÍCIO: PatientService.register
+2026-05-28 22:20:32,229 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-28 22:20:32,237 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.008s
+2026-05-28 22:20:32,238 [INFO] HospitalSystem: FIM: PatientService.register | Tempo: 0.010s
+2026-05-28 22:20:32,256 [INFO] HospitalSystem: INÍCIO: PatientService.register
+2026-05-28 22:20:32,256 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-28 22:20:32,263 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.007s
+2026-05-28 22:20:32,264 [INFO] HospitalSystem: FIM: PatientService.register | Tempo: 0.008s
+2026-05-28 22:20:32,264 [INFO] HospitalSystem: INÍCIO: PatientService.update
+2026-05-28 22:20:32,267 [INFO] HospitalSystem: INÍCIO: Repository.update
+2026-05-28 22:20:32,270 [INFO] HospitalSystem: FIM: Repository.update | Tempo: 0.003s
+2026-05-28 22:20:32,271 [INFO] HospitalSystem: FIM: PatientService.update | Tempo: 0.007s
+2026-05-28 22:20:32,773 [INFO] HospitalSystem: [TIMER] Início: Carregamento/Treino do Modelo de IA
+2026-05-28 22:20:35,481 [INFO] HospitalSystem.AI: Treinando modelo de triagem com RandomForestClassifier...
+2026-05-28 22:20:36,099 [INFO] HospitalSystem.AI: Modelo treinado. Acurácia: 0.9433
+2026-05-28 22:20:36,110 [INFO] HospitalSystem.AI: 
+               precision    recall  f1-score   support
+
+   Emergência       1.00      1.00      1.00        60
+      Urgente       1.00      0.98      0.99        60
+Pouco Urgente       0.97      0.97      0.97        60
+  Não Urgente       0.96      0.77      0.85        60
+       Normal       0.82      1.00      0.90        60
+
+     accuracy                           0.94       300
+    macro avg       0.95      0.94      0.94       300
+ weighted avg       0.95      0.94      0.94       300
+
+2026-05-28 22:20:36,121 [INFO] HospitalSystem.AI: Modelo de triagem guardado em disco.
+2026-05-28 22:20:36,121 [INFO] HospitalSystem: [TIMER] Fim: Carregamento/Treino do Modelo de IA | 3.348s
+2026-05-28 22:20:36,122 [INFO] HospitalSystem: INÍCIO: AI.predict_priority
+2026-05-28 22:20:36,150 [INFO] HospitalSystem: FIM: AI.predict_priority | Tempo: 0.028s
+2026-05-28 22:20:36,168 [INFO] HospitalSystem: INÍCIO: AI.predict_priority
+2026-05-28 22:20:36,206 [INFO] HospitalSystem: FIM: AI.predict_priority | Tempo: 0.038s
+2026-05-28 22:20:36,209 [INFO] HospitalSystem: INÍCIO: AI.predict_priority
+2026-05-28 22:20:36,237 [INFO] HospitalSystem: FIM: AI.predict_priority | Tempo: 0.028s
+2026-05-28 22:20:36,239 [INFO] HospitalSystem: INÍCIO: AI.predict_priority
+2026-05-28 22:20:36,270 [INFO] HospitalSystem: FIM: AI.predict_priority | Tempo: 0.031s
+2026-05-28 23:02:51,259 [INFO] HospitalSystem: [TIMER] Início: Carregamento/Treino do Modelo de IA
+2026-05-28 23:02:58,192 [INFO] HospitalSystem.AI: Modelo de triagem carregado do ficheiro.
+2026-05-28 23:02:58,192 [INFO] HospitalSystem: [TIMER] Fim: Carregamento/Treino do Modelo de IA | 6.933s
+2026-05-28 23:03:04,507 [WARNING] matplotlib.font_manager: Matplotlib is building the font cache; this may take a moment.
+2026-05-28 23:03:06,277 [INFO] matplotlib.font_manager: generated new fontManager
+2026-05-28 23:03:56,116 [INFO] HospitalSystem: INÍCIO: AuthService.login
+2026-05-28 23:03:56,138 [INFO] HospitalSystem: FIM: AuthService.login | Tempo: 0.022s
+2026-05-28 23:09:58,648 [INFO] HospitalSystem: INÍCIO: PatientService.register
+2026-05-28 23:09:58,657 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-28 23:09:58,668 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.011s
+2026-05-28 23:09:58,668 [INFO] HospitalSystem: FIM: PatientService.register | Tempo: 0.020s
+2026-05-28 23:11:05,553 [INFO] HospitalSystem: INÍCIO: TriageService.triage_patient
+2026-05-28 23:11:05,554 [INFO] HospitalSystem: INÍCIO: AI.predict_priority
+2026-05-28 23:11:05,584 [INFO] HospitalSystem: FIM: AI.predict_priority | Tempo: 0.030s
+2026-05-28 23:11:05,585 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-28 23:11:05,597 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.012s
+2026-05-28 23:11:05,597 [INFO] HospitalSystem: FIM: TriageService.triage_patient | Tempo: 0.044s
+2026-05-28 23:12:26,936 [INFO] HospitalSystem: INÍCIO: PatientService.update
+2026-05-28 23:12:26,937 [INFO] HospitalSystem: INÍCIO: Repository.update
+2026-05-28 23:12:26,947 [INFO] HospitalSystem: FIM: Repository.update | Tempo: 0.010s
+2026-05-28 23:12:26,948 [INFO] HospitalSystem: FIM: PatientService.update | Tempo: 0.012s
+2026-05-28 23:16:13,518 [INFO] HospitalSystem: INÍCIO: AppointmentService.schedule
+2026-05-28 23:16:13,519 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-28 23:16:13,531 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.012s
+2026-05-28 23:16:13,531 [INFO] HospitalSystem: FIM: AppointmentService.schedule | Tempo: 0.013s
+2026-05-28 23:18:06,924 [INFO] HospitalSystem: INÍCIO: MedicalRecordService.create
+2026-05-28 23:18:06,924 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-28 23:18:06,936 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.012s
+2026-05-28 23:18:06,936 [INFO] HospitalSystem: FIM: MedicalRecordService.create | Tempo: 0.012s
+2026-05-28 23:18:48,177 [INFO] HospitalSystem: INÍCIO: TriageService.triage_patient
+2026-05-28 23:18:48,178 [INFO] HospitalSystem: INÍCIO: AI.predict_priority
+2026-05-28 23:18:48,221 [INFO] HospitalSystem: FIM: AI.predict_priority | Tempo: 0.044s
+2026-05-28 23:18:48,222 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-28 23:18:48,230 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.008s
+2026-05-28 23:18:48,230 [INFO] HospitalSystem: FIM: TriageService.triage_patient | Tempo: 0.053s
+2026-05-28 23:18:49,991 [INFO] HospitalSystem: INÍCIO: TriageService.triage_patient
+2026-05-28 23:18:49,991 [INFO] HospitalSystem: INÍCIO: AI.predict_priority
+2026-05-28 23:18:50,039 [INFO] HospitalSystem: FIM: AI.predict_priority | Tempo: 0.048s
+2026-05-28 23:18:50,039 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-28 23:18:50,049 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.009s
+2026-05-28 23:18:50,049 [INFO] HospitalSystem: FIM: TriageService.triage_patient | Tempo: 0.058s
+2026-05-28 23:20:03,539 [INFO] HospitalSystem: INÍCIO: TriageService.triage_patient
+2026-05-28 23:20:03,539 [INFO] HospitalSystem: INÍCIO: AI.predict_priority
+2026-05-28 23:20:03,584 [INFO] HospitalSystem: FIM: AI.predict_priority | Tempo: 0.045s
+2026-05-28 23:20:03,585 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-28 23:20:03,598 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.013s
+2026-05-28 23:20:03,598 [INFO] HospitalSystem: FIM: TriageService.triage_patient | Tempo: 0.060s
+2026-05-28 23:20:10,856 [INFO] HospitalSystem: INÍCIO: TriageService.triage_patient
+2026-05-28 23:20:10,856 [INFO] HospitalSystem: INÍCIO: AI.predict_priority
+2026-05-28 23:20:10,903 [INFO] HospitalSystem: FIM: AI.predict_priority | Tempo: 0.047s
+2026-05-28 23:20:10,903 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-28 23:20:10,912 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.009s
+2026-05-28 23:20:10,912 [INFO] HospitalSystem: FIM: TriageService.triage_patient | Tempo: 0.056s
+2026-05-28 23:20:27,828 [INFO] HospitalSystem: INÍCIO: TriageService.triage_patient
+2026-05-28 23:20:27,828 [INFO] HospitalSystem: INÍCIO: AI.predict_priority
+2026-05-28 23:20:27,874 [INFO] HospitalSystem: FIM: AI.predict_priority | Tempo: 0.046s
+2026-05-28 23:20:27,874 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-28 23:20:27,886 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.012s
+2026-05-28 23:20:27,887 [INFO] HospitalSystem: FIM: TriageService.triage_patient | Tempo: 0.059s
+2026-05-28 23:20:47,809 [INFO] HospitalSystem: INÍCIO: TriageService.triage_patient
+2026-05-28 23:20:47,810 [INFO] HospitalSystem: INÍCIO: AI.predict_priority
+2026-05-28 23:20:47,844 [INFO] HospitalSystem: FIM: AI.predict_priority | Tempo: 0.035s
+2026-05-28 23:20:47,845 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-28 23:20:47,853 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.009s
+2026-05-28 23:20:47,854 [INFO] HospitalSystem: FIM: TriageService.triage_patient | Tempo: 0.044s
+2026-05-28 23:21:31,166 [INFO] HospitalSystem.Services: Utilizador 1 saiu do sistema.
+2026-05-28 23:22:14,205 [INFO] HospitalSystem: [TIMER] Início: Carregamento/Treino do Modelo de IA
+2026-05-28 23:22:17,831 [INFO] HospitalSystem.AI: Modelo de triagem carregado do ficheiro.
+2026-05-28 23:22:17,831 [INFO] HospitalSystem: [TIMER] Fim: Carregamento/Treino do Modelo de IA | 3.626s
+2026-05-28 23:22:32,537 [INFO] HospitalSystem: INÍCIO: AuthService.login
+2026-05-28 23:22:32,564 [INFO] HospitalSystem: FIM: AuthService.login | Tempo: 0.027s
+2026-05-29 12:25:41,590 [INFO] HospitalSystem: [TIMER] Início: Carregamento/Treino do Modelo de IA
+2026-05-29 12:25:45,361 [INFO] HospitalSystem.AI: Modelo de triagem carregado do ficheiro.
+2026-05-29 12:25:45,361 [INFO] HospitalSystem: [TIMER] Fim: Carregamento/Treino do Modelo de IA | 3.772s
+2026-05-29 12:26:01,161 [INFO] HospitalSystem: INÍCIO: AuthService.login
+2026-05-29 12:26:01,186 [INFO] HospitalSystem: FIM: AuthService.login | Tempo: 0.025s
+2026-05-29 12:28:50,577 [INFO] HospitalSystem: INÍCIO: AppointmentService.schedule
+2026-05-29 12:28:50,586 [ERROR] HospitalSystem: ERRO em AppointmentService.schedule: time data '2026-09-31' does not match format '%Y-%m-%d %H:%M'
+2026-05-29 12:29:08,269 [INFO] HospitalSystem: INÍCIO: AppointmentService.schedule
+2026-05-29 12:29:08,270 [ERROR] HospitalSystem: ERRO em AppointmentService.schedule: day is out of range for month
+2026-05-29 12:29:20,312 [INFO] HospitalSystem: INÍCIO: AppointmentService.schedule
+2026-05-29 12:29:20,313 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-29 12:29:20,329 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.016s
+2026-05-29 12:29:20,329 [INFO] HospitalSystem: FIM: AppointmentService.schedule | Tempo: 0.017s
+2026-05-29 12:32:33,802 [INFO] HospitalSystem: INÍCIO: TriageService.triage_patient
+2026-05-29 12:32:33,803 [INFO] HospitalSystem: INÍCIO: AI.predict_priority
+2026-05-29 12:32:33,832 [INFO] HospitalSystem: FIM: AI.predict_priority | Tempo: 0.029s
+2026-05-29 12:32:33,832 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-29 12:32:33,843 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.011s
+2026-05-29 12:32:33,843 [INFO] HospitalSystem: FIM: TriageService.triage_patient | Tempo: 0.041s
+2026-05-29 12:42:53,538 [INFO] HospitalSystem: [TIMER] Início: Carregamento/Treino do Modelo de IA
+2026-05-29 12:42:56,279 [INFO] HospitalSystem.AI: Modelo de triagem carregado do ficheiro.
+2026-05-29 12:42:56,279 [INFO] HospitalSystem: [TIMER] Fim: Carregamento/Treino do Modelo de IA | 2.741s
+2026-05-29 12:43:22,152 [INFO] HospitalSystem: INÍCIO: AuthService.login
+2026-05-29 12:43:22,172 [INFO] HospitalSystem: FIM: AuthService.login | Tempo: 0.020s
+2026-05-29 12:47:57,878 [INFO] HospitalSystem.Services: Utilizador 3 saiu do sistema.
+2026-05-29 13:34:29,538 [INFO] HospitalSystem: [TIMER] Início: Carregamento/Treino do Modelo de IA
+2026-05-29 13:34:34,733 [INFO] HospitalSystem.AI: Modelo de triagem carregado do ficheiro.
+2026-05-29 13:34:34,733 [INFO] HospitalSystem: [TIMER] Fim: Carregamento/Treino do Modelo de IA | 5.196s
+2026-05-29 13:34:58,230 [INFO] HospitalSystem: INÍCIO: AuthService.login
+2026-05-29 13:34:58,234 [ERROR] HospitalSystem: ERRO em AuthService.login: [AUTH_ERROR] Palavra-passe incorrecta.
+2026-05-29 13:34:59,573 [INFO] HospitalSystem: INÍCIO: AuthService.login
+2026-05-29 13:34:59,575 [ERROR] HospitalSystem: ERRO em AuthService.login: [AUTH_ERROR] Palavra-passe incorrecta.
+2026-05-29 13:35:01,681 [INFO] HospitalSystem: INÍCIO: AuthService.login
+2026-05-29 13:35:01,682 [ERROR] HospitalSystem: ERRO em AuthService.login: [AUTH_ERROR] Palavra-passe incorrecta.
+2026-05-29 13:35:07,307 [INFO] HospitalSystem: INÍCIO: AuthService.login
+2026-05-29 13:35:07,309 [ERROR] HospitalSystem: ERRO em AuthService.login: [AUTH_ERROR] Palavra-passe incorrecta.
+2026-05-29 13:35:09,046 [INFO] HospitalSystem: INÍCIO: AuthService.login
+2026-05-29 13:35:09,048 [ERROR] HospitalSystem: ERRO em AuthService.login: [AUTH_ERROR] Palavra-passe incorrecta.
+2026-05-29 13:35:09,934 [INFO] HospitalSystem: INÍCIO: AuthService.login
+2026-05-29 13:35:09,936 [ERROR] HospitalSystem: ERRO em AuthService.login: [AUTH_ERROR] Palavra-passe incorrecta.
+2026-05-29 13:35:23,094 [INFO] HospitalSystem: [TIMER] Início: Carregamento/Treino do Modelo de IA
+2026-05-29 13:35:25,613 [INFO] HospitalSystem.AI: Modelo de triagem carregado do ficheiro.
+2026-05-29 13:35:25,613 [INFO] HospitalSystem: [TIMER] Fim: Carregamento/Treino do Modelo de IA | 2.519s
+2026-05-29 13:35:38,873 [INFO] HospitalSystem: INÍCIO: AuthService.login
+2026-05-29 13:35:38,900 [INFO] HospitalSystem: FIM: AuthService.login | Tempo: 0.027s
+2026-05-29 13:37:28,650 [INFO] HospitalSystem: INÍCIO: PatientService.register
+2026-05-29 13:37:28,660 [ERROR] HospitalSystem: ERRO em PatientService.register: time data '2017' does not match format '%Y-%m-%d'
+2026-05-29 13:37:51,511 [INFO] HospitalSystem: INÍCIO: PatientService.register
+2026-05-29 13:37:51,513 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-29 13:37:51,529 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.016s
+2026-05-29 13:37:51,529 [INFO] HospitalSystem: FIM: PatientService.register | Tempo: 0.018s
+2026-05-29 13:38:45,802 [INFO] HospitalSystem: INÍCIO: AppointmentService.cancel
+2026-05-29 13:38:45,815 [INFO] HospitalSystem: FIM: AppointmentService.cancel | Tempo: 0.013s
+2026-05-29 13:41:18,605 [INFO] HospitalSystem: INÍCIO: TriageService.triage_patient
+2026-05-29 13:41:18,605 [INFO] HospitalSystem: INÍCIO: AI.predict_priority
+2026-05-29 13:41:18,654 [INFO] HospitalSystem: FIM: AI.predict_priority | Tempo: 0.049s
+2026-05-29 13:41:18,655 [INFO] HospitalSystem: INÍCIO: Repository.create
+2026-05-29 13:41:18,666 [INFO] HospitalSystem: FIM: Repository.create | Tempo: 0.011s
+2026-05-29 13:41:18,666 [INFO] HospitalSystem: FIM: TriageService.triage_patient | Tempo: 0.061s
+2026-06-05 17:05:37,426 [INFO] HospitalSystem: [TIMER] Início: Carregamento/Treino do Modelo de IA
+2026-06-05 17:05:44,110 [INFO] HospitalSystem.AI: Modelo de triagem carregado do ficheiro.
+2026-06-05 17:05:44,110 [INFO] HospitalSystem: [TIMER] Fim: Carregamento/Treino do Modelo de IA | 6.684s
+2026-06-05 17:09:08,613 [INFO] HospitalSystem: INÍCIO: AuthService.login
+2026-06-05 17:09:08,640 [INFO] HospitalSystem: FIM: AuthService.login | Tempo: 0.027s

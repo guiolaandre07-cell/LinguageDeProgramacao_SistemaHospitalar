@@ -1,0 +1,19 @@
+# ============================================================
+#  Sistema de Gestão Hospitalar Kivi — Dependências Python
+# ============================================================
+
+# Interface gráfica
+customtkinter==5.2.2
+
+# Base de dados (ORM)
+SQLAlchemy==2.0.30
+
+# Inteligência Artificial / Machine Learning
+scikit-learn==1.4.2
+numpy==1.26.4
+
+# Visualização de dados
+matplotlib==3.9.0
+
+# Utilitários
+Pillow==10.3.0
